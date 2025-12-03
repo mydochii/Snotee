@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snote Viral Terbaru</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      min-height:100vh;
+      background:#f9fafb;
+      font-family:"Segoe UI", Arial, sans-serif;
+      color:#333;
+      display:flex;
+      flex-direction:column;
+    }
+
+    header {
+      text-align:center;
+      padding:16px;
+      background:linear-gradient(135deg,#007aff,#00c6ff);
+      color:#fff;
+      box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    }
+    header h1 { font-size:20px; letter-spacing:1px; }
+
+    .tags {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+      gap:10px;
+      padding:12px;
+      background:#fff;
+      border-bottom:1px solid #e5e7eb;
+    }
+    .tags a {
+      display:flex; align-items:center; justify-content:center;
+      background:#fff; padding:8px 14px; border-radius:30px;
+      text-decoration:none; color:#007aff; font-weight:600; font-size:15px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.06); transition:all .22s;
+      white-space:nowrap;
+    }
+    .tags a:hover { background:#007aff; color:#fff; transform:translateY(-2px) scale(1.04); }
+
+    .container {
+      max-width:1100px;
+      margin:14px auto;
+      width:calc(100% - 28px);
+      flex:1;
+    }
+
+    /* video grid */
+    .video-grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:12px;
+      padding:10px;
+    }
+    @media (max-width: 900px) { .video-grid { grid-template-columns:repeat(2,1fr); } }
+    @media (max-width: 480px) { .video-grid { grid-template-columns:1fr; } }
+
+    .video-card {
+      position:relative;
+      background:#000;
+      border-radius:12px;
+      overflow:hidden;
+      aspect-ratio:16/9;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .video-card video {
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:cover;
+      background:#000;
+    }
+
+    /* overlay play button */
+    .play-overlay {
+      position:absolute;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      background:linear-gradient(180deg, rgba(0,0,0,0.14), rgba(0,0,0,0.32));
+      transition:background .15s, opacity .18s;
+    }
+    .play-overlay:hover { background:linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.24)); }
+    .play-button {
+      width:64px; height:64px; border-radius:50%;
+      background:rgba(255,255,255,0.95);
+      display:flex; align-items:center; justify-content:center;
+      box-shadow:0 6px 18px rgba(0,0,0,0.22);
+    }
+    .play-button:after{
+      content:"";
+      display:block;
+      margin-left:6px;
+      border-style:solid;
+      border-width:10px 0 10px 18px;
+      border-color:transparent transparent transparent rgba(0,0,0,0.9);
+    }
+
+    .caption { padding:8px 6px; font-size:14px; color:#333; text-align:center; }
+
+    .join-section {
+      text-align:center;
+      padding:18px;
+      background:#fff;
+      border-top:1px solid #e5e7eb;
+    }
+    .join-section h2 { font-size:18px; margin-bottom:12px; color:#111; }
+    .btn { display:inline-block; margin:6px; padding:10px 20px; border-radius:30px; text-decoration:none; font-weight:700; box-shadow:0 3px 8px rgba(0,0,0,0.12); transition:transform .12s; color:#fff; }
+    .btn-telegram { background:#0088cc; } .btn-telegram:hover{ transform:scale(1.04) }
+    .btn-whatsapp { background:#25d366; } .btn-whatsapp:hover{ transform:scale(1.04) }
+
+    footer { text-align:center; padding:14px; background:#f3f4f6; font-size:13px; color:#555; margin-top:12px; }
+  </style>
+</head>
+<body>
+
+  <header><h1>Snote Viral Terbaru</h1></header>
+
+  <div class="tags container">
+    <a href="https://otieu.com/4/9962437" target="_blank">VIRAL</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">SMP</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">BARAT</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">HIJAB</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">COLMEK</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">STW</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">SMA</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">TANTE</a>
+    <a href="https://otieu.com/4/9962437" target="_blank">LIVE</a>
+  </div>
+
+  <main class="container">
+    <div class="video-grid" id="videoGrid">
+
+      <!-- Video 1 -->
+      <div class="video-card">
+        <!-- note: no src here — lazy-loaded from data-src when clicked -->
+        <video controls playsinline preload="metadata" data-src="https://cdn.videy.co/V6VMU3cM1.mp4"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 1</div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://lnk.ink/Vid33yyv1d.short.gy.Ivyb1"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 2</div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://cdn.videy.co/VgFxcOkf2.mp4"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 3</div>
+      </div>
+
+      <!-- Video 4 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://lnk.ink/Vid33yyv1d.short.gy.Hxor1"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 4</div>
+      </div>
+
+      <!-- Video 5 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://cdn.videy.co/ppkfv1ok1.mp4"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 5</div>
+      </div>
+
+      <!-- Video 6 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://cdn.videy.co/NqzHidi31.mp4"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 6</div>
+      </div>
+
+      <!-- Video 7 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://lnk.ink/Vid33yyv1d.short.gy.Sicle1"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 7</div>
+      </div>
+
+      <!-- Video 8 -->
+      <div class="video-card">
+        <video controls playsinline preload="metadata" data-src="https://cdn.videy.co/UaVns2Nw1.mp4"></video>
+        <div class="play-overlay" aria-hidden="true"><div class="play-button" title="Klik untuk memutar"></div></div>
+        <div class="caption">Video 8</div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="join-section container">
+    <h2>Join Komunitas Untuk Konten Viral Lainnya</h2>
+    <a href="https://t.me/Koleksivirall123" target="_blank" class="btn btn-telegram">Join Telegram</a>
+    <a href="https://whatsapp.com/channel/0029VbBY5HF5Ejy20jWs9B06" target="_blank" class="btn btn-whatsapp">Join WhatsApp</a>
+  </div>
+
+  <footer>SELAMAT MENONTON, ENJOYY</footer>
+
+  <script>
+    // Lazy-load & play on overlay click. Prevents auto-loading while scrolling.
+    (function(){
+      const grid = document.getElementById('videoGrid');
+
+      function pauseAllExcept(except) {
+        grid.querySelectorAll('video').forEach(v=>{
+          if (v !== except) try { v.pause(); } catch(e){}
+        });
+      }
+
+      grid.addEventListener('click', (ev)=>{
+        const card = ev.target.closest('.video-card');
+        if (!card) return;
+        const video = card.querySelector('video');
+        const overlay = card.querySelector('.play-overlay');
+
+        // if no src loaded yet, create source element from data-src
+        if (!video.querySelector('source')) {
+          const src = video.getAttribute('data-src');
+          if (!src) return;
+          const source = document.createElement('source');
+          source.src = src;
+          // try to infer type from url extension
+          const type = src.includes('.m3u8') ? 'application/vnd.apple.mpegurl' : 'video/mp4';
+          source.type = type;
+          video.appendChild(source);
+          // load metadata only
+          video.load();
+        }
+
+        pauseAllExcept(video);
+        video.play().catch(()=>{ /* ignore play errors */ });
+
+        // hide overlay (so native controls visible)
+        if (overlay) overlay.style.display = 'none';
+      });
+
+      // when video ends or is paused, show overlay again
+      grid.querySelectorAll('video').forEach(video=>{
+        video.addEventListener('ended', ()=>{
+          const overlay = video.closest('.video-card')?.querySelector('.play-overlay');
+          if (overlay) overlay.style.display = 'flex';
+        });
+        // show overlay on user pause (only if not at start)
+        video.addEventListener('pause', ()=>{
+          const overlay = video.closest('.video-card')?.querySelector('.play-overlay');
+          if (overlay && video.currentTime > 0 && !video.ended) overlay.style.display = 'flex';
+        });
+      });
+
+      // Optional: prevent accidental autoplay if browser tries to play muted on scroll
+      // (we already avoid creating <source> until click, so should be safe)
+    })();
+  </script>
+
+</body>
+</html>
